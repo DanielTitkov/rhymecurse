@@ -1,0 +1,12 @@
+# template to substitute with actual values
+env: deploy
+data:
+  presets:
+    taskPresetsPaths: 
+      - ./data/presets/tasks.random.json
+      - ./data/presets/tasks.failing.json
+      - ./data/presets/tasks.parser.json
+external:
+  telegram:
+    telegramTo: {{telegram_to}}
+    telegramToken: {{telegram_token}}

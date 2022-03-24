@@ -13,3 +13,11 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+bin/*
+
+# Configs 
+configs/*
+!configs/default.*
+!configs/template.*
+!configs/cli.*

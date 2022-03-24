@@ -1,0 +1,10 @@
+env: dev
+data:
+  presets:
+    taskPresetsPaths: 
+      - ./data/presets/tasks.random.json
+      - ./data/presets/tasks.failing.json
+external:
+  telegram:
+    telegramTo: 99999
+    telegramToken: "9999:AAAAAAAAA"

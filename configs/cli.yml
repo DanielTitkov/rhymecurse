@@ -1,0 +1,6 @@
+env: dev
+data:
+  presets:
+    taskPresetsPaths: 
+      - ./data/presets/tasks.random.json
+      - ./data/presets/tasks.failing.json
